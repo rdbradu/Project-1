@@ -1,0 +1,285 @@
+
+**** 01/05/23 13:12:56 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-timp"  [ D:\Proiect 1\Preamplificator\Schema\filtru_n_2-pspicefiles\schematic1\timp.sim ] 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "timp.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+.LIB "../../../lib_modelepspice_anexa_1_a/modele_a1_lib/mmbfj309lt1g.lib" 
+.LIB "../../../lib_modelepspice_anexa_1_a/modele_a1_lib/mmbfj177lt1g.lib" 
+.LIB "../../../lib_modelepspice_anexa_1_a/modele_a1_lib/mjd32cg.lib" 
+.LIB "../../../lib_modelepspice_anexa_1_a/modele_a1_lib/mjd31cg.lib" 
+.LIB "../../../lib_modelepspice_anexa_1_a/modele_a1_lib/irfr120npbf.lib" 
+.LIB "../../../lib_modelepspice_anexa_1_a/modele_a1_lib/bzx84c10.lib" 
+.LIB "../../../lib_modelepspice_anexa_1_a/modele_a1_lib/bzx84c8v2.lib" 
+.LIB "../../../lib_modelepspice_anexa_1_a/modele_a1_lib/bzx84c6v8.lib" 
+.LIB "../../../lib_modelepspice_anexa_1_a/modele_a1_lib/bzx84c6v2.lib" 
+.LIB "../../../lib_modelepspice_anexa_1_a/modele_a1_lib/bzx84c5v6.lib" 
+.LIB "../../../lib_modelepspice_anexa_1_a/modele_a1_lib/bzx84c5v1.lib" 
+.LIB "../../../lib_modelepspice_anexa_1_a/modele_a1_lib/bzx84c2v7.lib" 
+.LIB "../../../lib_modelepspice_anexa_1_a/modele_a1_lib/bc856b.lib" 
+.LIB "../../../lib_modelepspice_anexa_1_a/modele_a1_lib/bc846b.lib" 
+.LIB "../../../lib_modelepspice_anexa_1_a/modele_a1_lib/bc817-25.lib" 
+.LIB "../../../lib_modelepspice_anexa_1_a/modele_a1_lib/bc807-25.lib" 
+.LIB "../../../lib_modelepspice_anexa_1_a/modele_a1_lib/1n4148.lib" 
+* From [PSPICE NETLIST] section of C:\SPB_DATA\cdssetup\OrCAD_PSpice\17.2.0\PSpice.ini file:
+.lib "C:\Users\radub\OneDrive\Desktop\Lib_ModelePSpice_Anexa_1\Modele_A1_lib\MMBFJ309LT1G.lib" 
+.lib "C:\Users\radub\OneDrive\Desktop\Lib_ModelePSpice_Anexa_1\Modele_A1_lib\MMBFJ177LT1G.lib" 
+.lib "C:\Users\radub\OneDrive\Desktop\Lib_ModelePSpice_Anexa_1\Modele_A1_lib\BC846B.lib" 
+.lib "C:\Users\radub\OneDrive\Desktop\Lib_ModelePSpice_Anexa_1\Modele_A1_lib\BC817-25.lib" 
+.lib "C:\Users\radub\OneDrive\Desktop\Lib_ModelePSpice_Anexa_1\Modele_A1_lib\BC807-25.lib" 
+.lib "C:\Users\radub\OneDrive\Desktop\Lib_ModelePSpice_Anexa_1\Modele_A1_lib\1N4148.lib" 
+.lib "nomd.lib" 
+
+*Analysis directives: 
+.TRAN  0 3m 0 1u 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source FILTRU_N_2
+V_V2         0 VSS 12
+V_V1         N09075 0 12
+X_D1         N09075 N138640 awb1n4148 PARAMS:                
+X_D2         N138640 N138950 awb1n4148 PARAMS:                
+X_D3         N138950 N13921 awb1n4148 PARAMS:                
+R_R12         N140301 N140300  100 TC=0,0 
+R_R13         N140300 N140530  100 TC=0,0 
+R_R14         N140530 0  100 TC=0,0 
+R_R15         N14199 N140301  100 TC=0,0 
+R_R16         N13921 N14199  100 TC=0,0 
+Q_Q7         N45357 N45979 N45553 QBC807-25 
+R_Rr1         N46031 N45803  150k TC=0,0 
+R_Rr2         N465791 N45803  510 TC=0,0 
+R_RL         0 VO  600 TC=0,0 
+J_Q10         N45975 N45803 N45737 JMMBFJ309LT1 
+R_R8         N45897 N09075  10k TC=0,0 
+V_V4         VI 0  AC 1
++SIN 0 10m 2k 0 0 0
+R_R18         VSS N46147  100 TC=0,0 
+R_R4         N45607 VI  10k TC=0,0 
+Q_Q12         VSS N46377 VO QBC807-25 
+X_R3         N45503 N45413 N45393 POT PARAMS: SET={1-x} VALUE=100k
+X_R1         N45607 N45563 N45623 POT PARAMS: SET={x} VALUE=500k
+C_C2         N45623 N45563  220n  TC=0,0 
+Q_Q5         N45979 N45975 N459591 QBC807-25 
+Q_Q11         N09075 N45357 VO QBC817-25 
+R_Rr3         0 N465791  100 TC=0,0 
+Q_Q14         N46031 N46031 N46377 QBC817-25 
+R_R7         VSS N45891  68 TC=0,0 
+X_R22         N45803 N45803 N46031 POT PARAMS: SET=1 VALUE=500k
+R_R6         VSS N45851  100 TC=0,0 
+Q_Q4         N45897 N45897 N45851 QBC817-25 
+R_R17         N45553 N455390  22 TC=0,0 
+J_Q9         N45979 N45413 N45737 JMMBFJ309LT1 
+Q_Q13         N45357 N45357 N46031 QBC817-25 
+R_R20         N460031 N09075  100 TC=0,0 
+C_C6         N45393 0  1n  TC=0,0 
+R_R19         N455390 N09075  100 TC=0,0 
+C_C4         N45503 VI  10n  TC=0,0 
+Q_Q3         N45737 N45897 N45891 QBC817-25 
+Q_Q6         N45975 N45975 N460031 QBC807-25 
+R_R21         N459591 N09075  100 TC=0,0 
+C_C1         N45563 N45607  47n  TC=0,0 
+R_R2         N45563 N45413  10k TC=0,0 
+Q_Q8         N46377 N45897 N46147 QBC817-25 
+R_R5         0 N45623  10k TC=0,0 
+.PARAM  x=0.5
+
+**** RESUMING timp.cir ****
+.END
+
+**** 01/05/23 13:12:56 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-timp"  [ D:\Proiect 1\Preamplificator\Schema\filtru_n_2-pspicefiles\schematic1\timp.sim ] 
+
+
+ ****     Diode MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_D1.model22    X_D2.model22    X_D3.model22    
+          IS    1.000000E-09    1.000000E-09    1.000000E-09 
+           N    1.55            1.55            1.55         
+          BV  120             120             120            
+         IBV    1               1               1            
+          RS     .5              .5              .5          
+          TT    5.000000E-09    5.000000E-09    5.000000E-09 
+         CJO    1.850000E-12    1.850000E-12    1.850000E-12 
+          VJ     .65             .65             .65         
+           M     .18             .18             .18         
+          EG    1.11            1.11            1.11         
+
+
+**** 01/05/23 13:12:56 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-timp"  [ D:\Proiect 1\Preamplificator\Schema\filtru_n_2-pspicefiles\schematic1\timp.sim ] 
+
+
+ ****     BJT MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               QBC817-25       QBC807-25       
+               NPN             PNP             
+       LEVEL    1               1            
+          IS   91.980000E-15  108.000000E-15 
+          BF  338.8           385.7          
+          NF    1.003            .99         
+         VAF  107.9            31.29         
+         IKF     .4913           .3603       
+         ISE  446.800000E-18   27.130000E-15 
+          NE    1.65            1.4          
+          BR   29.48           20.57         
+          NR    1.002            .9849       
+         VAR   25              11.62         
+         IKR     .193            .054        
+         ISC    5.109000E-15  506.200000E-15 
+          NC    1.071           1.295        
+         ISS    0               0            
+          RB    1               1            
+         RBM    1                .5          
+         IRB    1.000000E+03    1.000000E-06 
+          RE     .2126           .1415       
+          RC     .143            .2623       
+         CJE   38.250000E-12   51.140000E-12 
+         VJE     .7004           .8911       
+         MJE     .364            .4417       
+         CJC   12.700000E-12   26.560000E-12 
+         VJC     .4431           .62         
+         MJC     .3983           .4836       
+        XCJC     .4555           .459        
+         CJS    0               0            
+         VJS     .75             .75         
+         MJS     .333            .333        
+          FC     .905            .99         
+          TF  522.900000E-12  735.900000E-12 
+         XTF  219.7             1.859        
+         VTF    3.502           3.813        
+         ITF    7.257            .4393       
+          TR   70.000000E-12   50.000000E-09 
+          KF    0               0            
+          AF    1               1            
+          CN    2.42            2.2          
+           D     .87             .52         
+
+
+**** 01/05/23 13:12:56 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-timp"  [ D:\Proiect 1\Preamplificator\Schema\filtru_n_2-pspicefiles\schematic1\timp.sim ] 
+
+
+ ****     Junction FET MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               JMMBFJ309LT1    
+               NJF             
+         VTO   -1.7          
+        BETA    5.560100E-03 
+      LAMBDA     .02184      
+          IS    1.333600E-12 
+          RD     .1          
+          RS     .1          
+         CGD    5.351520E-12 
+         CGS    5.071890E-12 
+          PB    2.41896      
+          KF    9.999820E-21 
+          AF     .200092     
+
+
+**** 01/05/23 13:12:56 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-timp"  [ D:\Proiect 1\Preamplificator\Schema\filtru_n_2-pspicefiles\schematic1\timp.sim ] 
+
+
+ ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(   VI)    0.0000  (   VO)    -.0032  (  VSS)  -12.0000  (N09075)   12.0000     
+
+(N13921)    9.9489 (N14199)    7.9591 (N45357)     .6279 (N45393) 2.098E-06     
+
+(N45413) 2.098E-06 (N45503) 2.098E-06 (N45553)   11.7170 (N45563) 1.949E-06     
+
+(N45607) 74.94E-09 (N45623) 74.94E-09 (N45737)    1.2080 (N45803) 29.14E-06     
+
+(N45851)  -11.7700 (N45891)  -11.7770 (N45897)  -11.1480 (N45975)   11.2350     
+
+(N45979)   11.1130 (N46031)     .0055 (N46147)  -11.7680 (N46377)    -.6169     
+
+(N138640)   11.3160                   (N138950)   10.6330                       
+
+(N140300)    3.9796                   (N140301)    5.9693                       
+
+(N140530)    1.9898                   (N455390)   11.7680                       
+
+(N459591)   11.8360                   (N460031)   11.8370                       
+
+(N465791) 4.777E-06                   
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_V2        -1.144E-02
+    V_V1        -3.133E-02
+    V_V4         7.494E-12
+
+    TOTAL POWER DISSIPATION   5.13E-01  WATTS
+
+
+
+          JOB CONCLUDED
+
+**** 01/05/23 13:12:56 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-timp"  [ D:\Proiect 1\Preamplificator\Schema\filtru_n_2-pspicefiles\schematic1\timp.sim ] 
+
+
+ ****     JOB STATISTICS SUMMARY
+
+
+******************************************************************************
+
+
+
+  Total job time (using Solver 1)   =         .41
+

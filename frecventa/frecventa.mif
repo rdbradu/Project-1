@@ -1,0 +1,5 @@
+ lib=C:\Users\radub\OneDrive\Desktop\Lib_ModelePSpice_Anexa_1\Modele_A1_lib\BC807-25.lib, offset=480, size=667
+ lib=C:\Users\radub\OneDrive\Desktop\Lib_ModelePSpice_Anexa_1\Modele_A1_lib\BC817-25.lib, offset=481, size=704
+ lib=C:\Users\radub\OneDrive\Desktop\Lib_ModelePSpice_Anexa_1\Modele_A1_lib\MMBFJ309LT1G.lib, offset=497, size=174
+ lib=C:\Cadence\SPB_17.2\tools\PSpice\Library\di.lib, offset=37764, size=678
+ lib=C:\Cadence\SPB_17.2\tools\PSpice\Library\breakout.lib, offset=9201, size=133

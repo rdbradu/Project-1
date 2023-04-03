@@ -1,0 +1,42 @@
+** Profile: "SCHEMATIC1-timp"  [ D:\Proiect 1\Preamplificator\Schema\filtru_n_2-pspicefiles\schematic1\timp.sim ] 
+
+** Creating circuit file "timp.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+.LIB "../../../lib_modelepspice_anexa_1_a/modele_a1_lib/mmbfj309lt1g.lib" 
+.LIB "../../../lib_modelepspice_anexa_1_a/modele_a1_lib/mmbfj177lt1g.lib" 
+.LIB "../../../lib_modelepspice_anexa_1_a/modele_a1_lib/mjd32cg.lib" 
+.LIB "../../../lib_modelepspice_anexa_1_a/modele_a1_lib/mjd31cg.lib" 
+.LIB "../../../lib_modelepspice_anexa_1_a/modele_a1_lib/irfr120npbf.lib" 
+.LIB "../../../lib_modelepspice_anexa_1_a/modele_a1_lib/bzx84c10.lib" 
+.LIB "../../../lib_modelepspice_anexa_1_a/modele_a1_lib/bzx84c8v2.lib" 
+.LIB "../../../lib_modelepspice_anexa_1_a/modele_a1_lib/bzx84c6v8.lib" 
+.LIB "../../../lib_modelepspice_anexa_1_a/modele_a1_lib/bzx84c6v2.lib" 
+.LIB "../../../lib_modelepspice_anexa_1_a/modele_a1_lib/bzx84c5v6.lib" 
+.LIB "../../../lib_modelepspice_anexa_1_a/modele_a1_lib/bzx84c5v1.lib" 
+.LIB "../../../lib_modelepspice_anexa_1_a/modele_a1_lib/bzx84c2v7.lib" 
+.LIB "../../../lib_modelepspice_anexa_1_a/modele_a1_lib/bc856b.lib" 
+.LIB "../../../lib_modelepspice_anexa_1_a/modele_a1_lib/bc846b.lib" 
+.LIB "../../../lib_modelepspice_anexa_1_a/modele_a1_lib/bc817-25.lib" 
+.LIB "../../../lib_modelepspice_anexa_1_a/modele_a1_lib/bc807-25.lib" 
+.LIB "../../../lib_modelepspice_anexa_1_a/modele_a1_lib/1n4148.lib" 
+* From [PSPICE NETLIST] section of C:\SPB_DATA\cdssetup\OrCAD_PSpice\17.2.0\PSpice.ini file:
+.lib "C:\Users\radub\OneDrive\Desktop\Lib_ModelePSpice_Anexa_1\Modele_A1_lib\MMBFJ309LT1G.lib" 
+.lib "C:\Users\radub\OneDrive\Desktop\Lib_ModelePSpice_Anexa_1\Modele_A1_lib\MMBFJ177LT1G.lib" 
+.lib "C:\Users\radub\OneDrive\Desktop\Lib_ModelePSpice_Anexa_1\Modele_A1_lib\BC846B.lib" 
+.lib "C:\Users\radub\OneDrive\Desktop\Lib_ModelePSpice_Anexa_1\Modele_A1_lib\BC817-25.lib" 
+.lib "C:\Users\radub\OneDrive\Desktop\Lib_ModelePSpice_Anexa_1\Modele_A1_lib\BC807-25.lib" 
+.lib "C:\Users\radub\OneDrive\Desktop\Lib_ModelePSpice_Anexa_1\Modele_A1_lib\1N4148.lib" 
+.lib "nomd.lib" 
+
+*Analysis directives: 
+.TRAN  0 3m 0 1u 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+.END

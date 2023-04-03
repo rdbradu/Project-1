@@ -1,0 +1,5 @@
+ lib="D:\Proiect 1\Preamplificator\Schema\lib_modelepspice_anexa_1_a\modele_a1_lib\mmbfj309lt1g.lib", offset=497, size=174
+ lib="D:\Proiect 1\Preamplificator\Schema\lib_modelepspice_anexa_1_a\modele_a1_lib\bc817-25.lib", offset=481, size=704
+ lib="D:\Proiect 1\Preamplificator\Schema\lib_modelepspice_anexa_1_a\modele_a1_lib\bc807-25.lib", offset=480, size=667
+ lib=C:\Cadence\SPB_17.2\tools\PSpice\Library\di.lib, offset=37764, size=678
+ lib=C:\Cadence\SPB_17.2\tools\PSpice\Library\breakout.lib, offset=9201, size=133

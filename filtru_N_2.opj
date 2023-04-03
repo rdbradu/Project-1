@@ -1,0 +1,268 @@
+(ExpressProject "filtru_N_2"
+  (ProjectVersion "19981106")
+  (ProjectType "Analog or A/D Mixed Mode")
+  (Folder "Design Resources"
+    (Folder "Library"
+      (File
+         "c:\users\radub\onedrive\desktop\lib_modelepspice_anexa_1\modele_a1_lib\1n4148.lib"
+        (Type "Schematic Library"))
+      (File
+         "c:\users\radub\onedrive\desktop\lib_modelepspice_anexa_1\modele_a1_lib\bc807-25.lib"
+        (Type "Schematic Library"))
+      (File
+         "c:\users\radub\onedrive\desktop\lib_modelepspice_anexa_1\modele_a1_lib\bc817-25.lib"
+        (Type "Schematic Library"))
+      (File
+         "c:\users\radub\onedrive\desktop\lib_modelepspice_anexa_1\modele_a1_lib\bc846b.lib"
+        (Type "Schematic Library"))
+      (File
+         "c:\users\radub\onedrive\desktop\lib_modelepspice_anexa_1\modele_a1_lib\bc856b.lib"
+        (Type "Schematic Library"))
+      (File
+         "c:\users\radub\onedrive\desktop\lib_modelepspice_anexa_1\modele_a1_lib\bzx84c2v7.lib"
+        (Type "Schematic Library"))
+      (File
+         "c:\users\radub\onedrive\desktop\lib_modelepspice_anexa_1\modele_a1_lib\bzx84c5v1.lib"
+        (Type "Schematic Library"))
+      (File
+         "c:\users\radub\onedrive\desktop\lib_modelepspice_anexa_1\modele_a1_lib\bzx84c5v6.lib"
+        (Type "Schematic Library"))
+      (File
+         "c:\users\radub\onedrive\desktop\lib_modelepspice_anexa_1\modele_a1_lib\bzx84c6v2.lib"
+        (Type "Schematic Library"))
+      (File
+         "c:\users\radub\onedrive\desktop\lib_modelepspice_anexa_1\modele_a1_lib\bzx84c6v8.lib"
+        (Type "Schematic Library"))
+      (File
+         "c:\users\radub\onedrive\desktop\lib_modelepspice_anexa_1\modele_a1_lib\bzx84c8v2.lib"
+        (Type "Schematic Library"))
+      (File
+         "c:\users\radub\onedrive\desktop\lib_modelepspice_anexa_1\modele_a1_lib\bzx84c10.lib"
+        (Type "Schematic Library"))
+      (File
+         "c:\users\radub\onedrive\desktop\lib_modelepspice_anexa_1\modele_a1_lib\irfr120npbf.lib"
+        (Type "Schematic Library"))
+      (File
+         "c:\users\radub\onedrive\desktop\lib_modelepspice_anexa_1\modele_a1_lib\mjd31cg.lib"
+        (Type "Schematic Library"))
+      (File
+         "c:\users\radub\onedrive\desktop\lib_modelepspice_anexa_1\modele_a1_lib\mjd32cg.lib"
+        (Type "Schematic Library"))
+      (File
+         "c:\users\radub\onedrive\desktop\lib_modelepspice_anexa_1\modele_a1_lib\mmbfj177lt1g.lib"
+        (Type "Schematic Library"))
+      (File
+         "c:\users\radub\onedrive\desktop\lib_modelepspice_anexa_1\modele_a1_lib\mmbfj309lt1g.lib"
+        (Type "Schematic Library")))
+    (NoModify)
+    (File ".\filtru_n_2.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (PSPICE_Regenerate_Netlist_Flag "FALSE")
+    (Netlist_TAB "0")
+    ("Create Allegro Netlist" "TRUE")
+    ("Allegro Netlist Directory" "allegro")
+    ("View Allegro Netlist Files" "FALSE")
+    ("Allegro Netlist Create DCF File" "FALSE")
+    ("Update Allegro Board" "TRUE")
+    ("Allegro Netlist Output Board File" "allegro\FILTRU_N_2.brd")
+    ("Allegro Netlist Remove Etch" "FALSE")
+    ("Allegro Netlist Place Changed Component" "ALWAYS_REPLACE")
+    ("Allegro Netlist Open Board in Allegro" "ORCAD")
+    ("Allegro Setup Backup Versions" "3")
+    ("Allegro Setup Ignore Constraints" "FALSE")
+    ("Allegro Setup Part Type Length" "31")
+    ("Allegro Netlist Combine Property String" "PCB Footprint")
+    ("Allegro Netlist Ignore Fixed Property" "FALSE")
+    ("Allegro Netlist User Defined Property" "FALSE")
+    (BOM_Scope "0")
+    (BOM_Mode "0")
+    (BOM_Report_File "D:\PROIECT 1\PREAMPLIFICATOR\SCHEMA\FILTRU_N_2.BOM")
+    (BOM_Merge_Include "FALSE")
+    (BOM_Property_Combine_7.0 "{Item}\t{Quantity}\t{Reference}\t{Value}")
+    (BOM_Header "Item\tQuantity\tReference\tPart")
+    (BOM_Include_File "D:\PROIECT 1\PREAMPLIFICATOR\SCHEMA\FILTRU_N_2.INC")
+    (BOM_Include_File_Combine_7.0 "{Item}\t{Quantity}\t{Reference}\t{Value}")
+    (BOM_One_Part_Per_Line "FALSE")
+    (Open_BOM_in_Excel "TRUE")
+    (BOM_View_Output "FALSE"))
+  (Folder "Outputs"
+    (File ".\filtru_n_2-pspicefiles\schematic1\schematic1.net"
+      (Type "Report"))
+    (File ".\filtru_n_2.bom"
+      (Type "Report")))
+  (Folder "PSpice Resources"
+    (Folder "Simulation Profiles"
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\filtru_n_2-pspicefiles\schematic1\psf.sim"
+        (DisplayName "SCHEMATIC1-psf")
+        (Type "PSpice Profile"))
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\filtru_n_2-pspicefiles\schematic1\frecventa.sim"
+        (DisplayName "SCHEMATIC1-frecventa")
+        (Type "PSpice Profile"))
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\filtru_n_2-pspicefiles\schematic1\timp.sim"
+        (DisplayName "SCHEMATIC1-timp")
+        (Type "PSpice Profile"))
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\filtru_n_2-pspicefiles\schematic1\temp.sim"
+        (DisplayName "SCHEMATIC1-temp")
+        (Type "PSpice Profile"))
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\filtru_n_2-pspicefiles\schematic1\potentiometre.sim"
+        (DisplayName "SCHEMATIC1-potentiometre")
+        (Type "PSpice Profile"))
+      (ActiveProfile ".\filtru_n_2-pspicefiles\schematic1\temp.sim"))
+    (Folder "Model Libraries"
+      (Sort User)
+      (File
+         "c:\users\radub\onedrive\desktop\lib_modelepspice_anexa_1\modele_a1_lib\1n4148.lib"
+        (Type "PSpiceLibrary")
+        (DisplayName
+           "c:\users\radub\onedrive\desktop\lib_modelepspice_anexa_1\modele_a1_lib\1n4148.lib"))
+      (File
+         "c:\users\radub\onedrive\desktop\lib_modelepspice_anexa_1\modele_a1_lib\bc807-25.lib"
+        (Type "PSpiceLibrary")
+        (DisplayName
+           "c:\users\radub\onedrive\desktop\lib_modelepspice_anexa_1\modele_a1_lib\bc807-25.lib"))
+      (File
+         "c:\users\radub\onedrive\desktop\lib_modelepspice_anexa_1\modele_a1_lib\bc817-25.lib"
+        (Type "PSpiceLibrary")
+        (DisplayName
+           "c:\users\radub\onedrive\desktop\lib_modelepspice_anexa_1\modele_a1_lib\bc817-25.lib"))
+      (File
+         "c:\users\radub\onedrive\desktop\lib_modelepspice_anexa_1\modele_a1_lib\bc846b.lib"
+        (Type "PSpiceLibrary")
+        (DisplayName
+           "c:\users\radub\onedrive\desktop\lib_modelepspice_anexa_1\modele_a1_lib\bc846b.lib"))
+      (File
+         "c:\users\radub\onedrive\desktop\lib_modelepspice_anexa_1\modele_a1_lib\bc856b.lib"
+        (Type "PSpiceLibrary")
+        (DisplayName
+           "c:\users\radub\onedrive\desktop\lib_modelepspice_anexa_1\modele_a1_lib\bc856b.lib"))
+      (File
+         "c:\users\radub\onedrive\desktop\lib_modelepspice_anexa_1\modele_a1_lib\bzx84c2v7.lib"
+        (Type "PSpiceLibrary")
+        (DisplayName
+           "c:\users\radub\onedrive\desktop\lib_modelepspice_anexa_1\modele_a1_lib\bzx84c2v7.lib"))
+      (File
+         "c:\users\radub\onedrive\desktop\lib_modelepspice_anexa_1\modele_a1_lib\bzx84c5v1.lib"
+        (Type "PSpiceLibrary")
+        (DisplayName
+           "c:\users\radub\onedrive\desktop\lib_modelepspice_anexa_1\modele_a1_lib\bzx84c5v1.lib"))
+      (File
+         "c:\users\radub\onedrive\desktop\lib_modelepspice_anexa_1\modele_a1_lib\bzx84c5v6.lib"
+        (Type "PSpiceLibrary")
+        (DisplayName
+           "c:\users\radub\onedrive\desktop\lib_modelepspice_anexa_1\modele_a1_lib\bzx84c5v6.lib"))
+      (File
+         "c:\users\radub\onedrive\desktop\lib_modelepspice_anexa_1\modele_a1_lib\bzx84c6v2.lib"
+        (Type "PSpiceLibrary")
+        (DisplayName
+           "c:\users\radub\onedrive\desktop\lib_modelepspice_anexa_1\modele_a1_lib\bzx84c6v2.lib"))
+      (File
+         "c:\users\radub\onedrive\desktop\lib_modelepspice_anexa_1\modele_a1_lib\bzx84c6v8.lib"
+        (Type "PSpiceLibrary")
+        (DisplayName
+           "c:\users\radub\onedrive\desktop\lib_modelepspice_anexa_1\modele_a1_lib\bzx84c6v8.lib"))
+      (File
+         "c:\users\radub\onedrive\desktop\lib_modelepspice_anexa_1\modele_a1_lib\bzx84c8v2.lib"
+        (Type "PSpiceLibrary")
+        (DisplayName
+           "c:\users\radub\onedrive\desktop\lib_modelepspice_anexa_1\modele_a1_lib\bzx84c8v2.lib"))
+      (File
+         "c:\users\radub\onedrive\desktop\lib_modelepspice_anexa_1\modele_a1_lib\bzx84c10.lib"
+        (Type "PSpiceLibrary")
+        (DisplayName
+           "c:\users\radub\onedrive\desktop\lib_modelepspice_anexa_1\modele_a1_lib\bzx84c10.lib"))
+      (File
+         "c:\users\radub\onedrive\desktop\lib_modelepspice_anexa_1\modele_a1_lib\irfr120npbf.lib"
+        (Type "PSpiceLibrary")
+        (DisplayName
+           "c:\users\radub\onedrive\desktop\lib_modelepspice_anexa_1\modele_a1_lib\irfr120npbf.lib"))
+      (File
+         "c:\users\radub\onedrive\desktop\lib_modelepspice_anexa_1\modele_a1_lib\mjd31cg.lib"
+        (Type "PSpiceLibrary")
+        (DisplayName
+           "c:\users\radub\onedrive\desktop\lib_modelepspice_anexa_1\modele_a1_lib\mjd31cg.lib"))
+      (File
+         "c:\users\radub\onedrive\desktop\lib_modelepspice_anexa_1\modele_a1_lib\mjd32cg.lib"
+        (Type "PSpiceLibrary")
+        (DisplayName
+           "c:\users\radub\onedrive\desktop\lib_modelepspice_anexa_1\modele_a1_lib\mjd32cg.lib"))
+      (File
+         "c:\users\radub\onedrive\desktop\lib_modelepspice_anexa_1\modele_a1_lib\mmbfj177lt1g.lib"
+        (Type "PSpiceLibrary")
+        (DisplayName
+           "c:\users\radub\onedrive\desktop\lib_modelepspice_anexa_1\modele_a1_lib\mmbfj177lt1g.lib"))
+      (File
+         "c:\users\radub\onedrive\desktop\lib_modelepspice_anexa_1\modele_a1_lib\mmbfj309lt1g.lib"
+        (Type "PSpiceLibrary")
+        (DisplayName
+           "c:\users\radub\onedrive\desktop\lib_modelepspice_anexa_1\modele_a1_lib\mmbfj309lt1g.lib")))
+    (Folder "Stimulus Files"
+      (Sort User))
+    (Folder "Include Files"
+      (Sort User)))
+  (DefaultLibraryBrowseDirectory "library\PSpice")
+  (PartMRUSelector
+    (BC556B
+      (FullPartName "BC556B.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\EBIPOLAR.OLB")
+      (DeviceIndex "0"))
+    (PARAM
+      (FullPartName "PARAM.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\SPECIAL.OLB")
+      (DeviceIndex "0"))
+    (1N4148
+      (FullPartName "1N4148.Normal")
+      (LibraryName
+         "C:\ORCAD\ORCAD_16.6_LITE\TOOLS\CAPTURE\LIBRARY\PSPICE\EVALAA.OLB")
+      (DeviceIndex "0"))
+    (POT
+      (FullPartName "POT.Normal")
+      (LibraryName
+         "C:\ORCAD\ORCAD_16.6_LITE\TOOLS\CAPTURE\LIBRARY\PSPICE\BREAKOUT.OLB")
+      (DeviceIndex "0"))
+    (JMMBFJ309LT1
+      (FullPartName "JMMBFJ309LT1.Normal")
+      (LibraryName
+         "D:\DOCUMENTE\UPB\AN III\SEMESTRUL 1\P1\V_REG_ALEX\LIB_MODELEPSPICE_ANEXA_1_A (1)\MODELE_A1_LIB\MMBFJ309LT1G.OLB")
+      (DeviceIndex "0")))
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources"
+         "D:\Proiect 1\Preamplificator\Schema\filtru_n_2.dsn")
+      (Path "Design Resources"
+         "D:\Proiect 1\Preamplificator\Schema\filtru_n_2.dsn" "SCHEMATIC1")
+      (Path "Design Resources" "Library")
+      (Path "Outputs")
+      (Path "PSpice Resources")
+      (Path "PSpice Resources" "Model Libraries")
+      (Path "PSpice Resources" "Simulation Profiles")
+      (Select "PSpice Resources" "Model Libraries"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 0 528 0 430"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -8 -31 52 1345 52 369")
+        (Scroll "591 38")
+        (Zoom "112")
+        (Occurrence "/"))
+      (Path "D:\PROIECT 1\PREAMPLIFICATOR\SCHEMA\FILTRU_N_2.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "PAGE1")))
+  (MPSSessionName "radub")
+  (LastUsedLibraryBrowseDirectory
+     "C:\Users\radub\OneDrive\Desktop\Lib_ModelePSpice_Anexa_1\Modele_A1_lib")
+  (ISPCBBASICLICENSE "false"))
